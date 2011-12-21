@@ -1,0 +1,17 @@
+{
+  "name": "passport-goodreads",
+  "version": "0.1.0",
+  "description": "Goodreads authentication strategy for Passport.",
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jaredhanson/passport-goodreads.git"
+  },
+  "main": "./lib/passport-goodreads",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.1",
+    "xml2js": ">= 0.1.12"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "goodreads", "auth", "authn", "authentication", "identity"]
+}
