@@ -1,7 +1,7 @@
 # Passport-Goodreads
 
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
-with Goodreads using the OAuth 1.0 API.
+with [Goodreads](http://www.goodreads.com/) using the OAuth 1.0 API.
 
 ## Installation
 
@@ -50,9 +50,16 @@ application:
         res.redirect('/');
       });
 
-#### Examples
+## Examples
 
 For a complete, working example, refer to the [login example](https://github.com/jaredhanson/passport-goodreads/tree/master/examples/login).
+
+## Tests
+
+    $ npm install --dev
+    $ make test
+
+[![Build Status](https://secure.travis-ci.org/jaredhanson/passport-goodreads.png)](http://travis-ci.org/jaredhanson/passport-goodreads)
 
 ## Credits
 

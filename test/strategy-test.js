@@ -69,6 +69,13 @@ vows.describe('GoodreadsStrategy').addBatch({
         assert.equal(profile.id, '817656');
         assert.equal(profile.displayName, 'Jared Hanson');
       },
+      'should set raw property' : function(err, profile) {
+        assert.isString(profile._raw);
+      },
+      'should set xml2js property' : function(err, profile) {
+        assert.isObject(profile._xml2js);
+        assert.strictEqual(profile._xml2json, profile._xml2js);
+      },
     },
   },
   
