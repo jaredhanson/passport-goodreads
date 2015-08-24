@@ -7,9 +7,6 @@ var goodreads = require('..');
 vows.describe('passport-goodreads').addBatch({
   
   'module': {
-    'should report a version': function (x) {
-      assert.isString(goodreads.version);
-    },
   },
   
 }).export(module);
