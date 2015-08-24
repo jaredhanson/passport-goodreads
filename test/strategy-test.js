@@ -1,7 +1,7 @@
 var vows = require('vows');
 var assert = require('assert');
 var util = require('util');
-var GoodreadsStrategy = require('passport-goodreads/strategy');
+var GoodreadsStrategy = require('../lib/strategy');
 
 
 vows.describe('GoodreadsStrategy').addBatch({
